@@ -1,0 +1,11 @@
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/bin/Debug/net8.0/CronClone.deps.json
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/bin/Debug/net8.0/CronClone.dll
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/bin/Debug/net8.0/CronClone.pdb
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/CronClone.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/CronClone.AssemblyInfoInputs.cache
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/CronClone.AssemblyInfo.cs
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/CronClone.csproj.CoreCompileInputs.cache
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/CronClone.dll
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/refint/CronClone.dll
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/CronClone.pdb
+/Users/phatnguyen/RiderProjects/CronClone/CronClone/obj/Debug/net8.0/ref/CronClone.dll

@@ -1,0 +1,14 @@
+/Users/phatnguyen/RiderProjects/CronClone/Program/bin/Debug/net8.0/Program
+/Users/phatnguyen/RiderProjects/CronClone/Program/bin/Debug/net8.0/Program.deps.json
+/Users/phatnguyen/RiderProjects/CronClone/Program/bin/Debug/net8.0/Program.runtimeconfig.json
+/Users/phatnguyen/RiderProjects/CronClone/Program/bin/Debug/net8.0/Program.dll
+/Users/phatnguyen/RiderProjects/CronClone/Program/bin/Debug/net8.0/Program.pdb
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/Program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/Program.AssemblyInfoInputs.cache
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/Program.AssemblyInfo.cs
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/Program.csproj.CoreCompileInputs.cache
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/Program.dll
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/refint/Program.dll
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/Program.pdb
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/Program.genruntimeconfig.cache
+/Users/phatnguyen/RiderProjects/CronClone/Program/obj/Debug/net8.0/ref/Program.dll
