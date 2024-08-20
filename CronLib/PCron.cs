@@ -4,19 +4,18 @@ namespace CronLib;
 
 public class PCron
 {
-    
-    
+    public Dictionary<string, PCronField> DictField; 
+
     public DateTime GetNext(DateTime t)
     {
-        
         return DateTime.Now;
     }
+
     /// <summary>
     /// Create 6 part of the PCron schedule: date of week, month, day, hour, minute, second
     /// </summary>
     public static PCron Parse<T>(string input)
     {
-        
         return TryParse(input, (PCron p) => p);
     }
 
@@ -30,7 +29,8 @@ public class PCron
         for (int i = 0; i < 6; i++)
         {
             var kind = (TypeField)i;
-            PCronField field = PCronField.TryParse<T>(kind, listExpression[i], (PCronField p) => p);
+            PCronField field = PCronField.TryParse(kind, listExpression[i], p => p);
+            listPCronField.Add(field); 
         }
         return valueSelector(new PCron(listPCronField));
     }
@@ -43,6 +43,7 @@ public class PCron
     
     PCron(List<PCronField> listPCronField)
     {
-        
+        foreach(var l in listPCronField)
+            ListField.Add(l)
     }
 }

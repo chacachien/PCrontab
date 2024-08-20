@@ -31,7 +31,7 @@ public class TimeDefine
     public static TimeUnit Day = new()
     {
         Name = "Day",
-        Range = [0, 30]
+        Range = [1, 31]
     };
 
     public static TimeUnit Month = new()
@@ -41,10 +41,10 @@ public class TimeDefine
         Element = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     };
 
-    public static TimeUnit DayOfWee = new()
+    public static TimeUnit DayOfWeek = new()
     {
         Name = "Dow",
-        Range = [1, 7],
+        Range = [0, 6],
         Element = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     };
 

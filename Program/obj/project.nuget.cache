@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H7575+AQ1k/vlKv/ClqyVaDSgCqv6UNOl705Pa22LppmRVcWKADqMXYaqQIn+mSkUTi2uebY4X8I5Xrd68kWtw==",
+  "dgSpecHash": "M5SbcbMMJpU=",
   "success": true,
-  "projectFilePath": "/Users/phatnguyen/RiderProjects/CronClone/Program/Program.csproj",
+  "projectFilePath": "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\Program\\Program.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

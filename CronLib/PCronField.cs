@@ -1,28 +1,48 @@
 namespace CronLib;
 
-public class PCronField:IPCronField
+public class PCronField : IPCronField
 {
     public TypeField Kind { get; set; }
     public int Value { get; set; }
-    readonly int[] Range = new int[2];
+    public TypeSchedule Scheduler { get; set; }
 
-    static public void TryParse<T>(TypeField kind, string expression, Func<PCronField, T> valueSelector)
+    //readonly int[] Range = new int[2];
+
+    static public T TryParse<T>(TypeField kind, string expression, Func<PCronField, T> valueSelector)
     {
-        valueSelector(new PCronField());
+        return valueSelector(new PCronField(kind, expression));
     }
     
 
     public int GetNext()
     {
-        
+        return 0;
     }
 
-    PCronField(TypeField kind, string expression )
+
+    /// <summary>
+    /// Expression: "*" => ["*"}, "/3" => ["/", "3"], "1,2,33" => [",", "1","2","33"]
+    /// Process the single expression (every or at) 
+    /// </summary>
+    private void HandleExpression(TypeField kind, string expression)
     {
-        if (kind == TypeField.Second)
+        // handle expression to array
+        // loop in array and decide what kind of schedule
+        List<string> elements = new();
+        ExpressionHandle expressionHandle = new()
         {
-            
-        }
+            typeField = kind
+        };
+        elements = expressionHandle.Preprocessing(expression);
+        Scheduler = expressionHandle.Handle(elements);
+    }
+
+
+     public PCronField(TypeField kind, string expression )
+    {
+
+        HandleExpression(kind, expression);
+
     }
 }
 
