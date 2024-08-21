@@ -5,7 +5,13 @@ public class TimeUnit
     public string Name { get; set; }
     public int[] Range { get; set; }
     public string[] Element { get; set; }
-    
+    public DateTime Current;
+
+
+    internal void UpdateDayRange(DateTime current)
+    {
+        Range = new[] { 1, DateTime.DaysInMonth(current.Year, current.Month) };
+    }
 }
 
 public class TimeDefine
@@ -31,7 +37,7 @@ public class TimeDefine
     public static TimeUnit Day = new()
     {
         Name = "Day",
-        Range = [1, 31]
+        Range = [1, DateTime.DaysInMonth(DateTime.Now.Year, DateTime.Now.Month)]
     };
 
     public static TimeUnit Month = new()

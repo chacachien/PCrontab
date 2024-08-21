@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\PCron\\PCron.csproj": {}
+    "C:\\Users\\MY PC\\source\\repos\\PCrontab\\PCron\\PCron.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\PCron\\PCron.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\PCrontab\\PCron\\PCron.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\PCron\\PCron.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\PCrontab\\PCron\\PCron.csproj",
         "projectName": "PCron",
-        "projectPath": "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\PCron\\PCron.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\PCrontab\\PCron\\PCron.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\PCron\\obj\\",
         "projectStyle": "PackageReference",

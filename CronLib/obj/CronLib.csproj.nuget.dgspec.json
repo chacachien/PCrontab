@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\CronLib\\CronLib.csproj": {}
+    "C:\\Users\\MY PC\\source\\repos\\PCrontab\\CronLib\\CronLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\CronLib\\CronLib.csproj": {
+    "C:\\Users\\MY PC\\source\\repos\\PCrontab\\CronLib\\CronLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\CronLib\\CronLib.csproj",
+        "projectUniqueName": "C:\\Users\\MY PC\\source\\repos\\PCrontab\\CronLib\\CronLib.csproj",
         "projectName": "CronLib",
-        "projectPath": "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\CronLib\\CronLib.csproj",
+        "projectPath": "C:\\Users\\MY PC\\source\\repos\\PCrontab\\CronLib\\CronLib.csproj",
         "packagesPath": "C:\\Users\\MY PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\MY PC\\Source\\Repos\\PCrontab\\CronLib\\obj\\",
         "projectStyle": "PackageReference",

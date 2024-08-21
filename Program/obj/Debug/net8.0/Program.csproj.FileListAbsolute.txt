@@ -27,3 +27,7 @@ C:\Users\MY PC\Source\Repos\PCrontab\Program\obj\Debug\net8.0\refint\Program.dll
 C:\Users\MY PC\Source\Repos\PCrontab\Program\obj\Debug\net8.0\Program.pdb
 C:\Users\MY PC\Source\Repos\PCrontab\Program\obj\Debug\net8.0\Program.genruntimeconfig.cache
 C:\Users\MY PC\Source\Repos\PCrontab\Program\obj\Debug\net8.0\ref\Program.dll
+C:\Users\MY PC\source\repos\PCrontab\Program\bin\Debug\net8.0\CronLib.dll
+C:\Users\MY PC\source\repos\PCrontab\Program\bin\Debug\net8.0\CronLib.pdb
+C:\Users\MY PC\source\repos\PCrontab\Program\obj\Debug\net8.0\Program.csproj.AssemblyReference.cache
+C:\Users\MY PC\source\repos\PCrontab\Program\obj\Debug\net8.0\Program.csproj.Up2Date

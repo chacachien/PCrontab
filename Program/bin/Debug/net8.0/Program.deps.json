@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "Program/1.0.0": {
+        "dependencies": {
+          "CronLib": "1.0.0"
+        },
         "runtime": {
           "Program.dll": {}
+        }
+      },
+      "CronLib/1.0.0": {
+        "runtime": {
+          "CronLib.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Program/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CronLib/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

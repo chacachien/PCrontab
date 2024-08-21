@@ -1,0 +1,12 @@
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\CronLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\CronLib.AssemblyInfoInputs.cache
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\CronLib.AssemblyInfo.cs
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\CronLib.csproj.CoreCompileInputs.cache
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\CronLib.sourcelink.json
+C:\Users\MY PC\source\repos\PCrontab\CronLib\bin\Debug\net8.0\CronLib.deps.json
+C:\Users\MY PC\source\repos\PCrontab\CronLib\bin\Debug\net8.0\CronLib.dll
+C:\Users\MY PC\source\repos\PCrontab\CronLib\bin\Debug\net8.0\CronLib.pdb
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\CronLib.dll
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\refint\CronLib.dll
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\CronLib.pdb
+C:\Users\MY PC\source\repos\PCrontab\CronLib\obj\Debug\net8.0\ref\CronLib.dll

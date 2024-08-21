@@ -113,7 +113,7 @@ namespace CronLib
                 char? separator = null;
                 foreach (var c in expression)
                 {
-                    if (c == '*' || c == '/' || c == ',')
+                    if ( c == '/' || c == ',')
                     {
                         if (separator != null && separator != c)
                         {
@@ -142,6 +142,7 @@ namespace CronLib
                 ts.NameTypeSchedule = ETypeSchedule.Every;
                 ts.Timer = new List<int>();
             }
+
             //at
             else if (expression[0] == ",")
             {
@@ -152,19 +153,23 @@ namespace CronLib
             {
                 ts.NameTypeSchedule = ETypeSchedule.Every;
                 ts.Timer = new List<int>() { 1 };
-
+            }
+            else
+            {
+                ts.NameTypeSchedule = ETypeSchedule.At;
+                ts.Timer = new List<int>();
             }
 
-            for (int i = 1; i < expression.Count; i++)
+            for (int i = 0; i < expression.Count; i++)
             {
-                if (expression[i] == "*")
+                if (expression[i] == "*" || expression[i] == "/" || expression[i] == ",")
                 {
-                    i++;
+                    continue;
                 }
                 int value = int.Parse(expression[i]);
                 CheckRange(typeField, value);
 
-                ts.Timer.Add(int.Parse(expression[i]));
+                ts.Timer.Add(value);
             }
             return ts;
         }

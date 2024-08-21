@@ -40,7 +40,7 @@ public class PCronField : IPCronField
 
      public PCronField(TypeField kind, string expression )
     {
-
+        Kind = kind;
         HandleExpression(kind, expression);
 
     }
